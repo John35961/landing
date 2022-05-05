@@ -1,0 +1,40 @@
+.footer {
+  background-color: #2c2b2b;
+}
+
+.socials {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+.socials li {
+  margin-right: 15px;
+}
+
+.socials li i {
+  font-size: 1.65em;
+  color: #1ede87;
+}
+
+.links {
+  padding: 45px;
+}
+
+.links p {
+  font-size: 0.95em;
+  color: #6b6c6c;
+}
+
+.heart-icn {
+  color: #be1111;
+}
+/*# sourceMappingURL=footer.css.map */

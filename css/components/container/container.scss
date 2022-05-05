@@ -1,0 +1,11 @@
+$white: rgb(255, 255, 255);
+
+.container {
+  width: 820px;
+  padding: 20px;
+  margin: 0 auto;
+  &-title {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+}

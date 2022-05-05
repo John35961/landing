@@ -1,0 +1,67 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700");
+/* Fontawesome */
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("components/hero/hero.css");
+@import url("components/button/button.css");
+@import url("components/container/container.css");
+@import url("components/card/card.css");
+@import url("components/footer/footer.css");
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 85%;
+  }
+  .card {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 85%;
+  }
+  .col-3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
