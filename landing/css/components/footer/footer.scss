@@ -1,0 +1,37 @@
+$grey: rgb(107, 108, 108);
+$dark-grey: rgb(44, 43, 43);
+$red: rgb(190, 17, 17);
+$green: rgb(30, 222, 135);
+
+.footer {
+  background-color: $dark-grey;
+}
+
+.socials {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  li {
+    margin-right: 15px;
+    i {
+      font-size: 1.65em;
+      color: $green;
+    }
+  }
+}
+
+.links {
+  padding: 45px;
+  p {
+    font-size: 0.95em;
+    color: $grey;
+  }
+}
+
+.heart-icn {
+  color: $red;
+}
